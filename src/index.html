@@ -3,21 +3,22 @@
   <head>
     <meta charset="utf-8">
       <title>CODIGO SEGURO</title>
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="style.css"/>
   </head>
     <body>
-      <div>
+      <div id="inicio">
         <h1>CODIGO SEGURO</h1>
         <h2>Ingresa tu mensaje</h2>
-        <input type="text" id="contenido" required class="form-control" placeholder="Ingresa tu texto"></input>
+        <input type="text" id="contenido" style="text-transform:uppercase" required class="form-control" placeholder="Ingresa tu texto"></input>
         <p>Selecciona cantidad a desplazar</p>
         <input type="number" id="numero" min="0"></input>
         <p>¿Que quieres hacer?</p>
         <button onclick="encode()">Funcion cifrado</button>
         <button onclick="decode()">Funcion descifrado</button>
         <p>Tu resultado es</p>
-        <p><input name="resultado" id="resultado" type="text" required class="form-control" placeholder="Resultado"></p>
-            <script src="cipher.js"></script>
+        <p><input id="resultado" type="text" required class="form-control" placeholder="Resultado"></p>
+                    <script src="cipher.js"></script>
         <script src="index.js"></script>     
+      </div>
     </body>
 </html>

@@ -1,0 +1,22 @@
+body {
+    background: #7FFFD4;
+    font-family: 'Noto Sans SC', sans-serif;
+    border: 10px solid black;
+    text-align: center;
+    border-style: dotted;
+  }
+
+  #resultado {
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+      }
+
+   #contenido {
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+
+   }
