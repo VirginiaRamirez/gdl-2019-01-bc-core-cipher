@@ -1,27 +1,23 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-  <head> 
+  <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
+      <title>CODIGO SEGURO</title>
+        <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-      <h1 id= "inicio">CODIGO SEGURO</h1>
-         
-        <h2 id= "Hola">Hola <span id="holis"></span></h2>
-        <p> Ingresa tu texto a trabajar</p>
-        <input type="text" id="codigo" placeholder="Escribe aqui lo que quieres cifrar"></input><br>
-        <p>Elige la cantidad de digitos a desplazar</p>
-        <p><input type="number" placeholder="Elige un numero" id="desplaza"></input></p>
-        <button type="button"  onclick="cifrar()">cifrar</button>
-        <button type="button"  onclick="descifrar()">descifrar</button><br><br>
-
-      <h2 id = "resu">Tu codigo seguro es:</h2>
-      <p id="cody"></p>
-      <button type="button" onclick="limpia()">limpiar</button>     
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+    <body>
+      <div>
+        <h1>CODIGO SEGURO</h1>
+        <h2>Ingresa tu mensaje</h2>
+        <input type="text" id="contenido" required class="form-control" placeholder="Ingresa tu texto"></input>
+        <p>Selecciona cantidad a desplazar</p>
+        <input type="number" id="numero" min="0"></input>
+        <p>¿Que quieres hacer?</p>
+        <button onclick="encode()">Funcion cifrado</button>
+        <button onclick="decode()">Funcion descifrado</button>
+        <p>Tu resultado es</p>
+        <p><input name="resultado" id="resultado" type="text" required class="form-control" placeholder="Resultado"></p>
+            <script src="cipher.js"></script>
+        <script src="index.js"></script>     
+    </body>
 </html>
-
-	
