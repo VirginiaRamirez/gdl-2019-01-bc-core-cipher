@@ -1,24 +1,21 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-  <head>
+  <head>     
     <meta charset="utf-8">
-      <title>CODIGO SEGURO</title>
-        <link rel="stylesheet" href="style.css"/>
+    <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-    <body>
-      <div id="inicio">
-        <h1>CODIGO SEGURO</h1>
-        <h2>Ingresa tu mensaje</h2>
-        <input id="contenido" type="text" style="text-transform:uppercase" required class="form-control" placeholder="Ingresa tu texto">
-        <p>Selecciona cantidad a desplazar</p>
-        <input type="number" id="numero" min="0">
-        <p>¿Que quieres hacer?</p>
-        <button onclick="encode()">Funcion cifrado</button>
-        <button onclick="decode()">Funcion descifrado</button>
-        <p>Tu resultado es</p>
-        <p><input id="resultado" type="text" required class="form-control" placeholder="Resultado"></p>
-                    <script src="cipher.js"></script>
-        <script src="index.js"></script>     
-      </div>
-    </body>
+  <body>
+        <h1> CODIGO SEGURO</h1>
+          <h1>Escriba su mensaje</h1>
+         <input type ="text" placeholder="Ingresa tu texto" id="contenido" style="text-transform:uppercase" required class="form-control" >         
+         <h2>Selecciona la cantidad a desplazar</h2>     
+         <input type="number" id="numero"  min="0">       
+        <button id= "ncode" >Codificar</button>
+        <button id= "dcode" >Decodificar</button>    
+         <h2>Tu resultado es:</h2>         
+         <textarea id="resultadoFinal" ></textarea>   
+    <script src="cipher.js"></script>
+    <script src="index.js"></script>
+  </body>
 </html>

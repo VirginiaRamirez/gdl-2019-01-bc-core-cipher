@@ -1,25 +1,40 @@
 window.cipher = {
+    encode:(offset, string)=> {
+        let resultado = "";     
+      for (let i = 0; i < string.length; i++) {
+        if(string[i] === " "){
+        resultado += " ";
+        }else{
+        let resulta = string[i];
+        let codigo = string.charCodeAt(i);
+        resulta = String.fromCharCode((codigo - 45 + offset) % 26 + 65);
+     
+        resultado += resulta;
+        }
+      }
+     
+      return resultado;
+    }, 
+    
+    decode:(offset, string)=> {
+        let resultado = "";
+     
+      for (let i = 0; i < string.length; i++) {
+        if(string[i] === " "){
+        resultado += " ";
+        }else{
+        let resulta = string[i];
+        let codigo = string.charCodeAt(i);
+        resulta = String.fromCharCode((codigo + 65 - offset) % 26 + 65);
+     
+        resultado += resulta;
+        }
+        
+      }
+     
+      return resultado;
+    }
+  };
 
-    encode : (offset, string)=>{
-        let resultado ="";
-        offset = parseInt(document.getElementById("numero").value);
-        string = parseInt(document.getElementById("contenido").value);
-        string = String(string).toUpperCase();
-        for (let i = 0; i < string.length; i++) {
-            let codigo = (string.charCodeAt(i) - 65 + offset) % 26 + 65;
-            resultado = resultado+String.fromCharCode(codigo);
-        }
-        document.getElementById("resultado").value=resultado;
-    },       
-     decode : (offset, string)=>{
-        let resultado ="";
-        offset = parseInt(document.getElementById("numero").value);
-        string = parseInt(document.getElementById("contenido").value);
-        string = String(string).toUpperCase();
-        for (let i = 0; i < string.length; i++) {
-            let codigo = (string.charCodeAt(i) + 65 - offset) % 26 + 65;
-            resultado =String.fromCharCode(codigo)+resultado;
-        }
-        document.getElementById("resultado").value=resultado;
-        }   
-};
+
+
