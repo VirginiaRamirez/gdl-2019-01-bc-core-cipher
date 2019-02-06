@@ -7,7 +7,7 @@ window.cipher = {
         }else{
         let resulta = string[i];
         let codigo = string.charCodeAt(i);
-        resulta = String.fromCharCode((codigo - 45 + offset) % 26 + 65);
+        resulta = String.fromCharCode((codigo - 65 + offset) % 26 + 65);
      
         resultado += resulta;
         }
