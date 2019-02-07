@@ -1,6 +1,7 @@
 #1-SECRETO SEGURO
 
-El programa "SECRETO SEGURO" esta diseñado para cualquier usuario con necesidad de cifrar/descifrar mensajes privados a base del cifrado Cesar:
+El programa "SECRETO SEGURO" esta diseñado para cualquier usuario con necesidad de cifrar/descifrar mensajes privados a base del cifrado Cesar, pensado en la necesidad de poderse comunicar entre usuarios de redes sociales sin el peligro de que sus mensajes personales sean entendidos por terceras personas aún cuando estos sean interceptados:
+
 ![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
 
 El cifrado césar es una de las técnicas más simples para cifrar un mensaje. Es
