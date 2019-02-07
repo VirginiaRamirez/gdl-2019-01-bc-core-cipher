@@ -23,7 +23,7 @@ aplicación en el sistema ROT13.
 
 #2-COMO DESCARGAR E INSTALAR EL PROGRAMA
 *Para comenzar a utilizar el programa tendrás que hacer un _fork_ y _clonar_ este
-repositorio en .
+repositorio en https://github.com/VirginiaRamirez/gdl-2019-01-bc-core-cipher 
 *Abrir carpeta "Laboratoria"
 *Abrir carpera "gdl-2019-01-bc-core-cipher
 *Abrir carpeta "src"
@@ -46,3 +46,7 @@ repositorio en .
 
 *Los tests unitarios cubren un el 91.3% de _statements_, 100% de_functions_ 
 ,90.48% de _lines_, y un  50% de _branches_.
+
+#5- Sobre el Diseño
+*Se utilizo un diseño simple priorizando la funcionabilidad.
+*Debido a que este es un prototipo espere nuevas actualizaciones. 
