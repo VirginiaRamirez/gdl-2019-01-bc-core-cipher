@@ -20,7 +20,7 @@ const cadenaTexto2 = () =>{
          const cadenaTexto3 = () =>{
             const offset = document.getElementById("numero").value="";
             const string = document.getElementById("contenido").value="";
-            let mensajeFinal2 = "";
+            let mensajeFinal2 = (offset, string);
             document.getElementById("resultadoFinal").value = mensajeFinal2;
         };
                  const textLimpia = document.getElementById("limpiar");
