@@ -6,15 +6,15 @@ window.cipher = {
         resultado += " ";
         }else{
         let resulta = string[i];
+        string = string.toUpperCase();
         let codigo = string.charCodeAt(i);
         resulta = String.fromCharCode((codigo - 65 + offset) % 26 + 65);
-     
         resultado += resulta;
         }
       }
      
       return resultado;
-    }, 
+    },
     
     decode:(offset, string)=> {
         let resultado = "";
@@ -24,6 +24,7 @@ window.cipher = {
         resultado += " ";
         }else{
         let resulta = string[i];
+        string = string.toUpperCase();
         let codigo = string.charCodeAt(i);
         resulta = String.fromCharCode((codigo + 65 - offset) % 26 + 65);
      

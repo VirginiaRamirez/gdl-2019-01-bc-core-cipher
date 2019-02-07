@@ -1,3 +1,4 @@
+
 const cadenaTexto = () =>{    
     const offset = parseInt(document.getElementById("numero").value);
     const string = document.getElementById("contenido").value;
@@ -14,4 +15,3 @@ const cadenaTexto = () =>{
 };
     const textDecode = document.getElementById("dcode");
     textDecode.addEventListener("click", cadenaTexto2);
-
