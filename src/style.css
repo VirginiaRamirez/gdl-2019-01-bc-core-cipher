@@ -1,9 +1,8 @@
 body {
-    background-image:url("https://img.pixers.pics/pho_wat(s3:700/FO/62/05/67/74/700_FO62056774_bb63ec5c636e913f6c6f7ba18768318c.jpg,700,467,cms:2018/10/5bd1b6b8d04b8_220x50-watermark.png,over,480,417,jpg)/fotomurales-fondo-de-color-marron-claro-con-rizos-florales.jpg.jpg");
-    font-family: 'Noto Sans SC', sans-serif;
-    border: 10px solid black;
-    text-align: center;
-    border-style: dotted;
+  background-color:#87CEFA;
+      text-align: center;
+    background-size: 400px 705px;
+    border-radius: 25px
   }
 
   #resultado {
@@ -11,12 +10,17 @@ body {
     padding-right: 15px;
     padding-bottom: 15px;
     padding-left: 15px;
-      }
+    }      
 
    #contenido {
     padding-top: 5px;
     padding-right: 15px;
     padding-bottom: 15px;
     padding-left: 15px;
-
+    border-color: #20B2AA;
+    
+   }
+   button {
+     border-color:pink;
+     
    }
