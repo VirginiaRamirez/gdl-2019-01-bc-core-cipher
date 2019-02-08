@@ -24,7 +24,7 @@ aplicación en el sistema ROT13.
 
 #2-COMO DESCARGAR E INSTALAR EL PROGRAMA
 *Para comenzar a utilizar el programa tendrás que hacer un _fork_ y _clonar_ este
-repositorio en https://github.com/VirginiaRamirez/gdl-2019-01-bc-core-cipher 
+repositorio en https://github.com/VirginiaRamirez/gdl-2019-01-bc-core-cipher o ingresa directamente en la dirección https://virginiaramirez.github.io/gdl-2019-01-bc-core-cipher/src/
 *Abrir carpeta "Laboratoria"
 *Abrir carpera "gdl-2019-01-bc-core-cipher
 *Abrir carpeta "src"
