@@ -2,7 +2,7 @@ window.cipher = {
     encode:(offset, string)=> {
         let resultado = "";     
       for (let i = 0; i < string.length; i++) {
-        if(string[i] === ""){
+        if(string[i] === "" && offset ===""){
         resultado += "";
         }else{
         let resulta = string[i];
