@@ -2,8 +2,8 @@ window.cipher = {
     encode:(offset, string)=> {
         let resultado = "";     
       for (let i = 0; i < string.length; i++) {
-        if(string[i] === ""){
-        resultado += "";
+        if(string[i] === " "){
+        resultado += " ";
         }else{
         let resulta = string[i];
         string = string.toUpperCase();
@@ -20,8 +20,8 @@ window.cipher = {
         let resultado = "";
      
       for (let i = 0; i < string.length; i++) {
-        if(string[i] === ""){
-        resultado += "";
+        if(string[i] === " "){
+        resultado += " ";
         }else{
         let resulta = string[i];
         string = string.toUpperCase();
